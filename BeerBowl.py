@@ -24,3 +24,7 @@ for i in range(0,gameNumber):
         print(table[randNumbers[0]],"+",table[randNumbers[1]], "vs", table[randNumbers[2]], "+", table[randNumbers[3]])
     elif players == 3:
         print(table[randNumbers[0]],"+",table[randNumbers[1]], "vs", table[randNumbers[2]])
+
+Stop = int(input("0 to exit"))
+while Stop != 0:
+    Stop = int(input())
